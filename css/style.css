@@ -1,5 +1,7 @@
 /* --------- HEADER ---------*/
 .header {
+  display: flex;
+  justify-content: space-between;
   background: var(--header-gradient);
 }
 

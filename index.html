@@ -18,28 +18,44 @@
     <!-- Нижче має бути твій код 😀 -->
     <!-- Твій код повинен бути в межах блоку body -->
     <!-- <body> - це початок блоку, </body > - це кінець блоку -->
-    <header class="header">
+    <header class="header container">
       <!-- Тут в блоці header потрібно створити "шапку" сайту -->
 
       <!-- Іконка меню -->
-      <svg class="icon-menu">
-        <use href="./images/sprite.svg#icon-menu" />
-      </svg>
+      <div class="header-navigation">
+        <svg class="icon-menu">
+          <use href="./images/sprite.svg#icon-menu" />
+        </svg>
 
-      <!-- Іконка пошуку -->
-      <svg class="icon-search">
-        <use href="./images/sprite.svg#icon-search" />
-      </svg>
+        <h1>Cool Shop</h1>
 
-      <!-- Іконка сердечко -->
-      <svg class="icon-favorite-light">
-        <use href="./images/sprite.svg#icon-favorite-light" />
-      </svg>
+        <form action="">
+          <input type="text" placeholder="Я шукаю..." name="search" />
+          <button type="submit">
+            <svg class="icon-search">
+              <use href="./images/sprite.svg#icon-search" />
+            </svg>
+          </button>
+        </form>
+      </div>
 
-      <!-- Іконка корзина -->
-      <svg class="icon-basket">
-        <use href="./images/sprite.svg#icon-basket" />
-      </svg>
+      <div>
+        <div>
+          <button>EN</button>
+          <p>|</p>
+          <button>UA</button>
+        </div>
+
+        <!-- Іконка сердечко -->
+        <svg class="icon-favorite-light">
+          <use href="./images/sprite.svg#icon-favorite-light" />
+        </svg>
+
+        <!-- Іконка корзина -->
+        <svg class="icon-basket">
+          <use href="./images/sprite.svg#icon-basket" />
+        </svg>
+      </div>
     </header>
     <main>
       <!-- Тут в блоці main потрібно розмістити основний контент сторінки -->
@@ -59,12 +75,60 @@
       </section>
 
       <!-- Секція з рекламою -->
-      <section></section>
+      <section>
+        <svg class="icon-button-left">
+          <use href="./images/sprite.svg#icon-button-left" />
+        </svg>
+        <div>
+          <p>Знижки на спортивні товари до 50% на все ЛІТО</p>
+        </div>
+        <svg class="icon-button-right">
+          <use href="./images/sprite.svg#icon-button-right" />
+        </svg>
+      </section>
 
       <!-- Секція "Популярні" -->
       <section>
-        <svg class="icon-favorite-dark">
-          <use href="./images/sprite.svg#icon-favorite-dark" />
+        <p>Популярні</p>
+        <svg class="icon-button-left">
+          <use href="./images/sprite.svg#icon-button-left" />
+        </svg>
+        <ul>
+          <li>
+            <svg class="icon-favorite-dark">
+              <use href="./images/sprite.svg#icon-favorite-dark" />
+            </svg>
+            <img src="./images/blender.jpg" alt="blender" />
+            <p>Блендер</p>
+            <p>900 грн.</p>
+          </li>
+          <li>
+            <svg class="icon-favorite-dark">
+              <use href="./images/sprite.svg#icon-favorite-dark" />
+            </svg>
+            <img src="./images/ball.jpg" alt="ball" />
+            <p>Волейбольний м'яч</p>
+            <p>1000 грн.</p>
+          </li>
+          <li>
+            <svg class="icon-favorite-dark">
+              <use href="./images/sprite.svg#icon-favorite-dark" />
+            </svg>
+            <img src="./images/t-shirt.jpg" alt="t-shirt" />
+            <p>Футболка</p>
+            <p>300 грн.</p>
+          </li>
+          <li>
+            <svg class="icon-favorite-dark">
+              <use href="./images/sprite.svg#icon-favorite-dark" />
+            </svg>
+            <img src="./images/toy.jpg" alt="toy" />
+            <p>Іграшка автомобіль</p>
+            <p>900 грн.</p>
+          </li>
+        </ul>
+        <svg class="icon-button-right">
+          <use href="./images/sprite.svg#icon-button-right" />
         </svg>
       </section>
     </main>
