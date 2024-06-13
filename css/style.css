@@ -1,4 +1,8 @@
 /* --------- HEADER ---------*/
+.header {
+  background: var(--header-gradient);
+}
+
 .icon-menu {
   width: 28px;
   height: 20px;
