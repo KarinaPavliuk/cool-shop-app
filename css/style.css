@@ -101,6 +101,7 @@
   padding: 44px;
   display: flex;
   flex-direction: column;
+  row-gap: 44px;
 }
 /* --- Реклама --- */
 .advertising {
@@ -138,9 +139,15 @@
 }
 
 /* --- Популярні --- */
+
 .popular-heading {
+  margin-bottom: 16px;
   font-size: 24px;
   font-weight: bold;
+}
+
+.popular-list-wrapper {
+  position: relative;
 }
 
 .popular-list {

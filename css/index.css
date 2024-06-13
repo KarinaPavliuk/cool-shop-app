@@ -64,6 +64,16 @@ body {
 
 .icon-button-left,
 .icon-button-right {
+  position: absolute;
   width: 28px;
   height: 28px;
+  top: calc(50% - 14px);
+}
+
+.icon-button-left {
+  left: -14px;
+}
+
+.icon-button-right {
+  right: -14px;
 }
