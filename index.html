@@ -27,11 +27,16 @@
           <use href="./images/sprite.svg#icon-menu" />
         </svg>
 
-        <h1>Cool Shop</h1>
+        <h1 class="logo">Cool Shop</h1>
 
-        <form action="">
-          <input type="text" placeholder="Я шукаю..." name="search" />
-          <button type="submit">
+        <form class="search-form">
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Я шукаю..."
+            name="search"
+          />
+          <button class="search-button" type="submit">
             <svg class="icon-search">
               <use href="./images/sprite.svg#icon-search" />
             </svg>
@@ -39,11 +44,11 @@
         </form>
       </div>
 
-      <div>
-        <div>
-          <button>EN</button>
+      <div class="header-actions">
+        <div class="language-changer">
+          <button class="language-changer-button">EN</button>
           <p>|</p>
-          <button>UA</button>
+          <button class="language-changer-button active">UA</button>
         </div>
 
         <!-- Іконка сердечко -->

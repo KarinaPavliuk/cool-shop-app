@@ -7,7 +7,7 @@
     rgba(199, 108, 255, 1) 100%
   );
   --text-color-dark: #3a3a3a;
-  --text-color-light: #fff;
+  --light-color: #fff;
   --price-color: #ff7a00;
   --logo-font: 'Barrio', system-ui;
 }

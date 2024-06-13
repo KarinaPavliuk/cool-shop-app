@@ -1,8 +1,15 @@
 /* --------- HEADER ---------*/
 .header {
+  height: 72px;
   display: flex;
   justify-content: space-between;
   background: var(--header-gradient);
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 92px;
 }
 
 .icon-menu {
@@ -10,9 +17,54 @@
   height: 20px;
 }
 
+.logo {
+  font-family: var(--logo-font);
+  color: var(--light-color);
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-input {
+  width: 248px;
+  height: 44px;
+  padding-left: 24px;
+  border-radius: 4px 0 0 4px;
+  border: solid 1px var(--light-color);
+  background-color: #eeeeee;
+  color: #777777;
+}
+
+.search-button {
+  width: 52px;
+  height: 44px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  background-color: var(--light-color);
+}
+
 .icon-search {
   width: 18px;
   height: 17px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  column-gap: 28px;
+}
+
+.language-changer {
+  display: flex;
+  column-gap: 4px;
+  color: var(--light-color);
+}
+
+.language-changer-button {
+  background: none;
+  border: none;
+  color: var(--light-color);
 }
 
 .icon-favorite-light {
