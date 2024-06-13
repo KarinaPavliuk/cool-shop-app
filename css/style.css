@@ -56,12 +56,15 @@
 }
 
 .language-changer {
+  height: 28px;
+  font-size: 24px;
   display: flex;
   column-gap: 4px;
   color: var(--light-color);
 }
 
 .language-changer-button {
+  font-size: 24px;
   background: none;
   border: none;
   color: var(--light-color);
