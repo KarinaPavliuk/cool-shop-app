@@ -81,12 +81,96 @@
 }
 
 /* --------- MAIN ---------*/
+.main {
+  display: flex;
+}
 /* --- Види товарів --- */
+.menu-navigation {
+  padding-top: 44px;
+  padding-right: 36px;
+  font-size: 24px;
+  line-height: 1.2em;
+  border-right: solid 1px #000;
+}
 
+/* .menu-navigation-list {
+  width: 100%;
+} */
+
+.main-content {
+  padding: 44px;
+  display: flex;
+  flex-direction: column;
+}
 /* --- Реклама --- */
+.advertising {
+  position: relative;
+  width: 1036px;
+  height: 252px;
+  padding: 24px 60px;
+  display: flex;
+  justify-content: end;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/tennis.jpg');
+}
+
+.advertising-text-wrapper {
+  width: 312px;
+  height: 204px;
+  padding: 40px 24px;
+  border-radius: 16px;
+  font-size: 24px;
+  background-color: #c3c943;
+  color: var(--light-color);
+}
+
+.advertising-left-button {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: -14px;
+}
+
+.advertising-rigth-button {
+  position: absolute;
+  top: calc(50% - 14px);
+  right: -14px;
+}
 
 /* --- Популярні --- */
+.popular-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.popular-list {
+  display: flex;
+  column-gap: 20px;
+}
+
+.popular-list-item {
+  position: relative;
+  width: 244px;
+  height: 268px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 12px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 4px 0px;
+  background-color: #f4f4f4;
+}
 .icon-favorite-dark {
+  position: absolute;
   width: 27px;
   height: 24px;
+  top: 12px;
+  right: 12px;
+}
+
+.popular-list-img {
+  max-width: 154px;
+  max-height: 154px;
 }
